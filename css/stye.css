@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid red;
+}
+
+header {
+    border: 0.5px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex: 100%;
+    border: 0.5px solid black;
+}
+
+.card {
+    flex: 100%;
+    border: 0.5px solid black;
+}
+
+.card-exception {
+    display: flex;
+    flex: 200%;
+    border: 0.5px solid black;
+}
+
+.card-exception-image {
+    
+}
+
+.card-exception-text {
+ 
+}
